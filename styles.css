@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(161, 169, 176);
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(20, 112, 174);
+    background-color: rgb(140, 160, 203);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choices {
+    display: flex;
+    gap: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 2rem;
+    color: white;
+    background-color: #257;
+    border: none;
+    border-radius: 3rem;
+}
+
+.btn:hover {
+    background-color: rgb(116, 156, 185);
+}
+
+.scoreboard {
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.scores {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 200px;
+}
+
+.announcer {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(0, 255, 0);
+}
+
+.hidden {
+    display: none;
+}
